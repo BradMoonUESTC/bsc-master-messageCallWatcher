@@ -1,3 +1,10 @@
+## 一些说明
+这是一个监测类以太坊公链消息调用数据的修改版，主要在虚拟机层面针对不同的调用方式（call、delegatecall、callcode、staticcall）在虚拟机运行时进行监测
+基于核心监测功能对一些周边合约也进行了更改，其目的是为了将交易本身的信息打印出来
+
+功能：可监测一个交易的消息调用的所有数据，包括合约之前的调用、参数、callee和caller、交易调用深度
+其目的是为了收集数据并对交易调用数据进行分析，如合约依赖关系、合约调用关系、漏洞发现、恶意合约或恶意地址发现
+
 ## Binance Smart Chain
 
 The goal of Binance Smart Chain is to bring programmability and interoperability to Binance Chain. In order to embrace the existing popular community and advanced technology, it will bring huge benefits by staying compatible with all the existing smart contracts on Ethereum and Ethereum tooling. And to achieve that, the easiest solution is to develop based on go-ethereum fork, as we respect the great work of Ethereum very much.
