@@ -1,9 +1,6 @@
-## 一些说明
-这是一个监测类以太坊公链消息调用数据的修改版，主要在虚拟机层面针对不同的调用方式（call、delegatecall、callcode、staticcall）在虚拟机运行时进行监测
-基于核心监测功能对一些周边合约也进行了更改，其目的是为了将交易本身的信息打印出来
-
-功能：可监测一个交易的消息调用的所有数据，包括合约之前的调用、参数、callee和caller、交易调用深度
-其目的是为了收集数据并对交易调用数据进行分析，如合约依赖关系、合约调用关系、漏洞发现、恶意合约或恶意地址发现
+## Note
+This is a modified version of monitoring Ethereum public chain message call data. It mainly monitors different call methods (call, delegatecall, callcode, staticcall) at the virtual machine level when the virtual machine is running. Based on the core monitoring function, some peripheral contracts have also been changed, with the purpose of printing out the information of the transaction itself
+Be able to: it can monitor all data of message call of a transaction, including call before contract, parameters, callee and caller, and transaction call depth. Its purpose is to collect data and analyze transaction call data, such as contract dependency, contract call relationship, leak discovery, malicious contract or malicious address discovery
 
 ## Binance Smart Chain
 
