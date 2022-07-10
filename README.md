@@ -1,5 +1,6 @@
 ## Note
 This is a modified version of monitoring Ethereum public chain message call data. It mainly monitors different call methods (call, delegatecall, callcode, staticcall) at the virtual machine level when the virtual machine is running. Based on the core monitoring function, some peripheral contracts have also been changed, with the purpose of printing out the information of the transaction itself
+______
 Be able to: it can monitor all data of message call of a transaction, including call before contract, parameters, callee and caller, and transaction call depth. Its purpose is to collect data and analyze transaction call data, such as contract dependency, contract call relationship, leak discovery, malicious contract or malicious address discovery
 
 ## Binance Smart Chain
